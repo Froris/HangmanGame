@@ -28,7 +28,7 @@ main{
 }
 
 .puzzle{
-    margin: 100px 0;
+    margin: 200px 0 50px;
     display: flex;
     flex-direction: column;
     width: 70%;

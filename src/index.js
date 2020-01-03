@@ -21,7 +21,7 @@ const createPuzzle = async(wordCount, trysCount) => {
 const newGame = () => {
     switch(difficulty){
         case undefined:
-            puzzleEl.textContent = "Choose difficulty first!";
+            puzzleEl.textContent = "Выберите уровень сложности!";
             break;
         case "easy":
             createPuzzle("1", 6);
@@ -30,7 +30,7 @@ const newGame = () => {
             createPuzzle("2", 14);
             break;
         case "hard":
-            createPuzzle("3", 24);
+            createPuzzle("3", 20);
             break;
     }
 }
